@@ -1,2 +1,2 @@
 # E-Cell_Website
-https://ecell.iitmandi.ac.in/
+https://ecell.iitmandi.co.in/
