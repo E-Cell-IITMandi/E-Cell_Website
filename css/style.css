@@ -841,13 +841,20 @@ hr {
 .person {
   text-align: center;
   box-sizing: border-box;
-  border: 2px solid black;
+  border: 1px solid #eeeeee;
   padding-top: 30px;
   padding-bottom: 30px;
   float: left;
   width: 100%;
   margin-bottom: 20px;
 }
+
+.person:hover {
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
 .person img {
   display: block;
   margin: 0 auto;
@@ -860,7 +867,7 @@ hr {
 .person .name {
   font-size: 26px;
   font-weight: bold;
-  color: #000000;
+  color: #2e4142;
 }
 .person .position {
   text-transform: uppercase;
