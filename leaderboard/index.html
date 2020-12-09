@@ -59,6 +59,10 @@
     <!-- Write the main js code here -->
     <div id="main">
         <h2 class="text-center" style="padding: 32px 8px;">LeaderBoard</h2>
+        
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" style="float: left;">
+            Scoring Rules
+        </button>
         <table id="lead-table" class="table table-striped table-dark">
             <thead>
                 <th>#</th>
@@ -89,6 +93,31 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Info Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Scoring Rules</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            The marking scheme is as follows for all events:<br>
+            200 - 1st position<br>
+            180 - 2nd position<br>
+            150 - 3rd position<br>
+            120 - special mentions<br>
+            100 - participants<br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
